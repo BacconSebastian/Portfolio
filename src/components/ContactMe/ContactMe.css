@@ -1,0 +1,51 @@
+@import url('../CSS/css.css');
+
+.contact-me {
+    padding: 10rem 14rem;
+    height: calc(100vh - 20rem);
+}
+
+.contact-me h2 {
+    color: var(--second-color);
+    font-size: 4rem;
+    cursor: default;
+}
+
+.contact-me h3 {
+    color: var(--third-color);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    cursor: default;
+}
+
+.contact-me p {
+    color: var(--third-color);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    cursor: default;
+}
+
+.contact-me a {
+    color: var(--third-color);
+    text-decoration: none;
+    text-shadow: 1px 1px 0 var(--second-color);
+    font-size: 2rem;
+    transition: all ease 0.5s;
+}
+
+.contact-me a:hover {
+    padding-left: 1rem;
+}
+
+@media (max-width: 800px) {
+    .contact-me {
+        padding: 16rem 2rem 0 2rem;
+        height: calc(100vh - 16rem);
+    }
+
+    .contact-me a {
+        font-size: 1.75rem;
+    }
+}

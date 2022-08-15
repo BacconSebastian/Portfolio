@@ -1,0 +1,104 @@
+@import url('../CSS/css.css');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--first-color);
+    padding: 0 2.5rem;
+    width: calc(100vw - 4rem);
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+nav h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--second-color);
+    filter: drop-shadow(0 0 2px var(--second-color));
+    cursor: pointer;
+    text-align: center;
+    padding: 1.5rem 0.5rem;
+}
+
+.anchor-down {
+    display: none;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks a {
+    color: var(--fourth-color);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.navlinks a:hover {
+    color: var(--second-color);
+    filter: drop-shadow(0 0 4px var(--second-color));
+}
+
+.navlinks .active {
+    color: var(--second-color);
+    filter: drop-shadow(0 0 4px var(--second-color));
+}
+
+.navlinks .active:hover {
+    filter: drop-shadow(0 0 4px var(--second-color));
+}
+
+#downloadCV {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--second-color);
+    border: 2px solid var(--second-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #00ffc81f;
+    width: 10rem;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+#downloadCV:hover {
+    color: var(--second-color);
+    filter: none;
+    box-shadow: 0 0 12px var(--second-color);
+}
+
+@media (max-width: 800px) {
+    nav {
+        padding: 0 2rem;
+        width: calc(100vw - 4rem);
+        position: fixed;
+        top: 0;
+        align-items: center;
+    }
+
+    .anchor-down {
+        display: block;
+    }
+
+    .anchor-down .icon-down {
+        color: var(--second-color);
+        width: 2.5rem;
+        height: auto;
+        filter: drop-shadow(0 0 4px var(--second-color));
+    }
+
+    .navlinks {
+        display: none;
+    }
+}
