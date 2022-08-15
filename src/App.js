@@ -10,6 +10,7 @@ import './App.css'
 function App() {
   return (
     <div className="app">
+      <title>My Portfolio</title>
       <Nav/>
       <a href='#' id='about-me' name="about-me"></a>
       <AboutMe/>
