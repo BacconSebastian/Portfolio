@@ -13,7 +13,7 @@ const Nav = () => {
                 <Link to="about-me" className="active">{'{ AboutMe }'}</Link>
                 <Link to="projects" >{'{ Projects }'}</Link>
                 <Link to="contact-me" >{'{ ContactMe }'}</Link>
-                <a href="https://drive.google.com/file/d/1JKZl9XUlAalQY3SwAuYAK1t0uMXzVsRj/view?usp=sharing" id="downloadCV">Download CV</a>
+                <a href="https://drive.google.com/file/d/1JKZl9XUlAalQY3SwAuYAK1t0uMXzVsRj/view?usp=sharing" target="blank" id="downloadCV">Download CV</a>
             </div>
             <a href="#about-me" className="anchor-down"><FontAwesomeIcon className="icon-down" icon={faAnglesDown}/></a>
         </nav>
