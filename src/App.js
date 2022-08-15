@@ -8,9 +8,11 @@ import './App.css'
 
 
 function App() {
+
+  document.title = "Baccon Sebastian"
+
   return (
     <div className="app">
-      <title>My Portfolio</title>
       <Nav/>
       <a href='#' id='about-me' name="about-me"></a>
       <AboutMe/>
