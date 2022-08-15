@@ -12,7 +12,7 @@ import './App.css'
 function App() {
 
   useEffect(() => {
-    document.title = "This is a title"
+    document.title = "Baccon Sebastian"
   }, [])
 
   return (
