@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
 import AboutMe from './components/AboutMe/AboutMe'
@@ -9,7 +11,9 @@ import './App.css'
 
 function App() {
 
-  document.title = "Baccon Sebastian"
+  useEffect(() => {
+    document.title = "This is a title"
+  }, [])
 
   return (
     <div className="app">
