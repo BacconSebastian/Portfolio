@@ -6,7 +6,6 @@ import { faAnglesDown } from '@fortawesome/free-solid-svg-icons'
 import './Nav.css'
 
 const Nav = () => {
-
     return(
         <nav>
             <Link to="about-me" ><h1 title="SB">SB</h1></Link>

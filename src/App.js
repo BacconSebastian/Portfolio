@@ -10,6 +10,11 @@ import './App.css'
 
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Baccon Sebastian"
+  }, [])
+
   return (
     <div className="app">
       <Nav/>
