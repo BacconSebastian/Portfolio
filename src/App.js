@@ -17,7 +17,7 @@ function App() {
   const handleSpinner = () => {
     setTimeout(() => {
     setClassSpinner(!classSpinner)
-  }, 3000);}
+  }, 2000);}
 
   useEffect(() => {
     handleSpinner()
