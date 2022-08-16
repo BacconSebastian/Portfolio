@@ -4,13 +4,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--first-color);
     padding: 0 2.5rem;
     width: calc(100vw - 4rem);
     height: 12vh;
     position: fixed;
     top: 0;
     z-index: 2;
+    background: var(--first-color);
 }
 
 nav h1 {

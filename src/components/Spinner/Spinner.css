@@ -1,0 +1,37 @@
+@import url('../CSS/css.css');
+
+
+.spinner {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--first-color);
+    display: none;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+}
+
+.spinner.active {
+    display: block;
+}
+
+.spinner.active .spinning {
+    width: 10vw;
+    height: 10vw;
+    border: 12px solid var(--third-color);
+    border-right: 12px solid var(--second-color);
+    border-radius: 50%;
+    animation: animate 2s infinite linear;
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
