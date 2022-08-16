@@ -41,8 +41,8 @@
 
 @media (max-width: 800px) {
     .contact-me {
-        padding: 16rem 2rem 0 2rem;
-        height: calc(100vh - 16rem);
+        padding: 14rem 2rem 0 2rem;
+        height: calc(100vh - 14rem);
     }
 
     .contact-me a {
