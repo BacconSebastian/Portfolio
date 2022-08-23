@@ -11,6 +11,7 @@ const Projects = () => {
 
     const buttons = document.getElementsByTagName('li')
     const images = document.getElementsByTagName('img')
+    const description = document.getElementsByClassName('project-description')
     const toDown = document.getElementsByClassName('anchor-down')
 
     const handleClick1 = () => {
@@ -20,6 +21,9 @@ const Projects = () => {
         images[0].className = 'active'
         images[1].className = ''
         images[2].className = ''
+        description[0].className = 'project-description active'
+        description[1].className = 'project-description'
+        description[2].className = 'project-description'
     }
     const handleClick2 = () => {
         buttons[0].className = ''
@@ -28,6 +32,9 @@ const Projects = () => {
         images[0].className = ''
         images[1].className = 'active'
         images[2].className = ''
+        description[0].className = 'project-description'
+        description[1].className = 'project-description active'
+        description[2].className = 'project-description'
     }
     const handleClick3 = () => {
         buttons[0].className = ''
@@ -36,6 +43,9 @@ const Projects = () => {
         images[0].className = ''
         images[1].className = ''
         images[2].className = 'active'
+        description[0].className = 'project-description'
+        description[1].className = 'project-description'
+        description[2].className = 'project-description active'
     }
 
     const navLinks = document.getElementsByTagName('a')
@@ -60,8 +70,20 @@ const Projects = () => {
                     <a href="https://github.com/BacconSebastian?tab=repositories" target="blank">Otros...</a>
                 </ul>
                 <a href="https://www.linkedin.com/posts/bacconsebastian_react-redux-css-activity-6961064891747041280-E3Gu?utm_source=linkedin_share&utm_medium=member_desktop_web" target="blank"><img className="active" src={Movies} alt=''/></a>
+                <p className="project-description active">
+                    This website is used to search for information about the movie you want. <br/><br/>
+                    <strong>React.js - Movies API - Redux</strong>
+                </p>
                 <a href="https://www.linkedin.com/posts/bacconsebastian_react-css3-api-activity-6963614056570105856-RDu_?utm_source=linkedin_share&utm_medium=member_desktop_web" target="blank"><img src={Weather} alt=''/></a>
+                <p className="project-description">
+                This website is used to search for information about the climate of the places provided by the Climate API. <br/><br/>
+                    <strong>React.js - Weather API - Redux</strong>
+                </p>
                 <a href="https://tateti-baccon.netlify.app/" target="blank"><img src={Tateti} alt=''/></a>
+                <p className="project-description">
+                    This website contains the classic game "tic-tac-toe" to have fun for a while. <br/><br/>
+                    <strong>React.js - HTML - CSS</strong>
+                </p>
             </div>
         </div>
     )
