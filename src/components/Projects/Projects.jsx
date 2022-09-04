@@ -67,7 +67,7 @@ const Projects = () => {
                     <li id="primera" className="active" onClick={handleClick1}><strong>01</strong> | Movies</li>
                     <li id="segunda" onClick={handleClick2}><strong>02</strong> | Weather</li>
                     <li id="tercera" onClick={handleClick3}><strong>03</strong> | Tic-tac-toe</li>
-                    <a href="https://github.com/BacconSebastian?tab=repositories" target="blank">Otros...</a>
+                    <a href="https://github.com/BacconSebastian?tab=repositories" target="blank">Others...</a>
                 </ul>
                 <a href="https://www.linkedin.com/posts/bacconsebastian_react-redux-css-activity-6961064891747041280-E3Gu?utm_source=linkedin_share&utm_medium=member_desktop_web" target="blank"><img className="active" src={Movies} alt=''/></a>
                 <p className="project-description active">
