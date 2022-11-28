@@ -17,6 +17,21 @@ footer {
     transition: all ease 0.5s;
 }
 
+.icon.linkedin {
+  animation: twinkle 2s infinite;
+}
+
+@keyframes twinkle {
+    0% {
+        color: var(--fourth-color);
+    }
+
+    50% {
+        color: var(--second-color);
+        filter: drop-shadow(0 0 3px var(--second-color));
+    }
+}
+
 .icon:hover {
     color: var(--second-color);
     filter: drop-shadow(0 0 3px var(--second-color));
@@ -40,6 +55,17 @@ footer {
 
 @media (max-width: 800px) {
     footer {
+        position: absolute;
+        bottom: 3rem;
+        flex-direction: row;
+    }
+
+    .icon {
+        width: 3rem;
+        margin: 1rem;
+    }
+
+    .vBar1, .vBar2 {
         display: none;
     }
 }

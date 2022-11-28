@@ -48,10 +48,6 @@
     transition: all ease 0.5s;
 }
 
-.name-projects li.active:hover {
-    text-shadow: none;
-}
-
 .name-projects a {
     text-decoration: none;
     color: var(--third-color);
@@ -64,7 +60,8 @@
     transition: all ease 0.5s;
 }
 
-.name-projects a:hover {
+.name-projects a:hover,
+.name-projects .active {
     text-shadow: 1px 1px 0 var(--second-color);
 }
 
