@@ -61,10 +61,10 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="sub-projects">
         <ul className="name-projects">
-          <li id="primera" className="active" onClick={handleClick1}>
+          <li id="primera" onClick={handleClick1}>
             <strong>01</strong> | Countries
           </li>
-          <li id="segunda" onClick={handleClick2}>
+          <li id="segunda" className="active" onClick={handleClick2}>
             <strong>02</strong> | Movies
           </li>
           <li id="tercera" onClick={handleClick3}>

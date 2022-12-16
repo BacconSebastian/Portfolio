@@ -18,7 +18,7 @@ const Nav = () => {
         <Link to="projects">{"{ Projects }"}</Link>
         <Link to="contact-me">{"{ ContactMe }"}</Link>
         <a
-          href="https://drive.google.com/file/d/1OgJFuKQe5SvGapW72_iFiskMm-bzX8XK/view?usp=sharing"
+          href="https://drive.google.com/file/d/16JCrwVGCPBIdwtB0BN1wz2boNJzG-Xn6/view?usp=sharing"
           target="blank"
           id="downloadCV"
         >
